@@ -19,7 +19,7 @@
               "pm.test(\"response should be okay to process\", function () { ",
               "    pm.response.to.not.be.error; ",
               "    pm.response.to.have.jsonBody(\"\"); ",
-              "    pm.response.to.not.have.jsonBody(\"errorz\"); ",
+              "    pm.response.to.not.have.jsonBody(\"errorz0\"); ",
               "});"
             ]
           }
