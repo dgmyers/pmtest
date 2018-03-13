@@ -12,14 +12,14 @@
         {
           "listen": "test",
           "script": {
-            "id": "7c79e4da-9932-412c-8c4d-20d12cf81869",
+            "id": "b44c9fd1-495d-477c-a7db-7f033ded8778",
             "type": "text/javascript",
             "exec": [
               "// example using response assertions",
               "pm.test(\"response should be okay to process\", function () { ",
               "    pm.response.to.not.be.error; ",
               "    pm.response.to.have.jsonBody(\"\"); ",
-              "    pm.response.to.not.have.jsonBody(\"errorz0\"); ",
+              "    pm.response.to.not.have.jsonBody(\"errorz3\"); ",
               "});"
             ]
           }
